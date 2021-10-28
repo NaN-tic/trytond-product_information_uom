@@ -1,0 +1,23 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.template,info_list_price:"
+msgid "Information List Price"
+msgstr "Precio de Venda UdM Informativa"
+
+msgctxt "field:product.template,info_ratio:"
+msgid "Information Ratio"
+msgstr "Ratio UdM Informativa"
+
+msgctxt "field:product.template,info_unit:"
+msgid "Information UOM"
+msgstr "UdM Informativa"
+
+msgctxt "field:product.template,use_info_unit:"
+msgid "Use Information UOM"
+msgstr "Utilitzar UdM Informativa"
+
+msgctxt "view:product.template:"
+msgid "Information UOM"
+msgstr "UdM Informativa"
