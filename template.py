@@ -8,7 +8,7 @@ from decimal import Decimal
 __all__ = ['Template']
 
 _ZERO = Decimal('0.0')
-_ROUND = Decimal('.0001')
+_ROUND = Decimal('.000001')
 
 
 class Template(metaclass=PoolMeta):
