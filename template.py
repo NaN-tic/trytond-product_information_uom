@@ -60,7 +60,10 @@ class Template(metaclass=PoolMeta):
         if not info_qty or not self.use_info_unit:
             return 0.0
         info_qty = Uom.compute_qty(self.default_uom, float(info_qty), unit)
-        return self.default_uom.round(info_qty / self.info_ratio)
+        if unit:
+            return unit.round(info_qty / self.info_ratio)
+        else:
+            return self.default_uom.round(info_qty / self.info_ratio)
 
     @fields.depends('use_info_unit', 'info_ratio', 'default_uom',
         'list_price')
