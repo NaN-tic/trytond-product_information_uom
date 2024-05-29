@@ -7,7 +7,7 @@ from decimal import Decimal
 
 __all__ = ['Template']
 
-_ZERO = Decimal('0.0')
+_ZERO = Decimal(0)
 _ROUND = Decimal('.000001')
 
 
